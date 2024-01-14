@@ -56,7 +56,7 @@ python -m pytorch.FasterRCNN --backbone=BACKBONE--load-from=PATH_OF_THE_MODEL --
 # To run the model and get a visual result from the movie
 python .\generate_labeled_movie.py --output PATH_OF_OUTPUT_FILE_NAME  --predict PATHO_OF_MOIVE --load-from= PATH_OF_THE_MODEL    
 ```
-IF you can not run the script you can watch the sample output we have.
+IF you can not run the script you can watch the sample output we have. The sample videos are listed in the sample output folder.
 ## Limitation
 The performance currently is limited to the video contents that are generated from 'Firends'.
 
